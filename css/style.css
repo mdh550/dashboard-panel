@@ -73,8 +73,13 @@ a{
 a:hover ,a:focus {
     color: #DDE2FF;
 }
+
+a > i {
+    padding-right: 20px;
+}
+
 .nav-link{
-    padding: 18px 24px 18px 72px;
+    padding: 18px 24px 18px 30px;
 }
 .nav-link:active{
     color: #DDE2FF;
