@@ -11,6 +11,7 @@ body{
     letter-spacing: 0.3px;
 }
 .left-panel > p{
+    color: #252733;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -18,6 +19,14 @@ body{
     text-align: right;
     letter-spacing: 0.2px;
 }
+
+.left-panel > i {
+    color: #C5C7CD;
+    font-size: 15px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
 .main-div{
     padding: 30px 30px;
 }
