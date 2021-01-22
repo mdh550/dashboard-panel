@@ -10,7 +10,9 @@ body{
     line-height: 30px;
     letter-spacing: 0.3px;
 }
-
+.main-div{
+    padding: 30px 30px;
+}
 .sidebar{
     height: 100%;
     background-color: #363740;
