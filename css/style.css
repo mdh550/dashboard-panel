@@ -86,6 +86,10 @@ a > i {
     background-color: #9FA2B4;
 }
 
+hr{
+    border: 1px solid #4e4e4e;
+}
+
 .main-div{
     padding: 30px 30px;
 }
