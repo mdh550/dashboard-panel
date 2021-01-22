@@ -27,15 +27,46 @@ body{
     cursor: pointer;
 }
 
-.main-div{
-    padding: 30px 30px;
-}
 .sidebar{
     height: auto;
     background-color: #363740;
     padding: 0;
     min-width: 220px;
 }
+
+.logo-info{
+    padding: 30px 0px 40px 30px;
+}
+
+.logo-info > h5{
+    margin: 0px;
+    padding: 0px 12px;
+    color:#A4A6B3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    opacity: 0.7;
+}
+
+.circle-blue{
+    background-color: #3751FF;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    padding: 0 0 0 1px;
+}
+
+.d-logo{
+    margin: 0 auto;
+    width: 12px;
+    height: 14px;
+    background: linear-gradient(143.7deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
 a{
     color: #A4A6B3;
 }
@@ -48,6 +79,10 @@ a:hover{
 .nav-link:active{
     color: #DDE2FF;
     background-color: #9FA2B4;
+}
+
+.main-div{
+    padding: 30px 30px;
 }
 
 .box{
