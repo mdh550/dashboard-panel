@@ -34,7 +34,7 @@ body{
     height: auto;
     background-color: #363740;
     padding: 0;
-    max-width: 255px;
+    min-width: 220px;
 }
 a{
     color: #A4A6B3;
