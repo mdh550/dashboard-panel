@@ -99,6 +99,26 @@ hr{
     border-radius: 8px;
 }
 
+.box > div > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
+}
+
+.box > div > h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #252733;
+}
+
 
 /*
 .row::after {
