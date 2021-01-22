@@ -50,14 +50,14 @@ a:hover{
     background-color: #9FA2B4;
 }
 
-
+.box{
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
 
 
 /*
-*{
-    box-sizing: border-box;
-}
-
 .row::after {
     content: "";
     clear: both;
