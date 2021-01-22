@@ -10,6 +10,14 @@ body{
     line-height: 30px;
     letter-spacing: 0.3px;
 }
+.left-panel > p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+}
 .main-div{
     padding: 30px 30px;
 }
