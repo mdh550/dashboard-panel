@@ -140,7 +140,7 @@ hr{
     padding: 30px 30px;
 }
 
-.box{
+.box > div {
     background: #FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
