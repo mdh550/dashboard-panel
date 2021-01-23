@@ -190,4 +190,22 @@ hr{
     background-color: #fff;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
+    padding: 0;
+}
+
+.thead-table > tr > th {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.thead-table {
+    border-bottom: 1.5px solid #DFE0EB;
+}
+
+tr > * {
+    padding-left: 32px!important;
 }
