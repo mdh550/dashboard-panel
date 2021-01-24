@@ -242,8 +242,9 @@ tr > * {
     color: #252733;
 }
 
-.btn-table > p{
+.btn-table{
     margin: 0;
+    width: fit-content;
     font-style: normal;
     font-weight: bold;
     font-size: 11px;
@@ -252,13 +253,17 @@ tr > * {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #FFFFFF;
-}
-
-.btn-table{
     border-radius: 100px;
     padding: 5px 12px;
 }
 
 .bg-red{
     background: #F12B2C;
+}
+
+.bg-yellow{
+    background: #FEC400;
+}
+.bg-green{
+    background: #29CC97;
 }
