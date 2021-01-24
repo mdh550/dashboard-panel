@@ -124,6 +124,12 @@ a:hover ,a:focus {
     border-left: solid 3px #9FA2B4;
 }
 
+.active{
+    color: #DDE2FF;
+    background-color: rgb(159 162 180 / 0.08);
+    border-left: solid 3px #9FA2B4;
+}
+
 a > i {
     padding-right: 20px;
 }
