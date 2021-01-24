@@ -206,6 +206,10 @@ hr{
     border-bottom: 1.5px solid #DFE0EB;
 }
 
+tr{
+    border-bottom: 1px solid #DFE0EB;
+}
+
 tr > * {
     padding-left: 32px!important;
 }
