@@ -144,6 +144,7 @@ hr{
     background: #FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
+    transition: all .5s ease;
 }
 
 .box > div > p {
@@ -154,6 +155,7 @@ hr{
     text-align: center;
     letter-spacing: 0.4px;
     color: #9FA2B4;
+    transition: all .5s ease;
 }
 
 .box > div > h2 {
@@ -164,9 +166,8 @@ hr{
     text-align: center;
     letter-spacing: 1px;
     color: #252733;
+    transition: all .5s ease;
 }
-
-
 
 
 /* part 2 */
@@ -208,6 +209,7 @@ hr{
 
 tr{
     border-bottom: 1px solid #DFE0EB;
+    transition: all .5s ease;
 }
 
 tr:hover{
