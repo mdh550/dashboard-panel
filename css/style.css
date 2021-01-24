@@ -210,6 +210,55 @@ tr{
     border-bottom: 1px solid #DFE0EB;
 }
 
+td{
+    vertical-align: middle;
+}
+
 tr > * {
     padding-left: 32px!important;
+}
+
+.data-table{
+    padding:23px 23px 23px 0;
+    min-width: 100px;
+}
+
+.data-table > p {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+
+.data-table > h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+
+.btn-table > p{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn-table{
+    border-radius: 100px;
+    padding: 5px 12px;
+}
+
+.bg-red{
+    background: #F12B2C;
 }
