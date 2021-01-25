@@ -27,6 +27,20 @@ if (ctx){
     ]
   },
   options: {
+    scales: {
+		xAxes: [{
+			gridLines: {
+                color: 'rgba(0, 0, 0, 0)',
+				lineWidth: 1
+			}
+		}],
+		yAxes: [{
+			gridLines: {
+				color: '#EBEDF0',
+				lineWidth: 1
+			}
+		}]
+	},
     legend: {
         textDirection:'rtl',
         display: false,
