@@ -74,11 +74,14 @@ button:focus{
     height: auto;
     background-color: #363740;
     padding: 0;
-    min-width: 220px;
+    width: 100%;
+    overflow-y: auto;
 }
-
-.side-menu{
-    height: auto;
+@media(min-width:768px){
+    .sidebar{
+        width:255px;
+        height: 100vh;
+    }
 }
 
 .logo-info{
@@ -152,6 +155,7 @@ hr{
 
 .main-div{
     padding: 30px 30px;
+    width: calc(100%-255px);
 }
 
 .box > div {
