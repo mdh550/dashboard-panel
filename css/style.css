@@ -79,8 +79,11 @@ button:focus{
 }
 @media(min-width:768px){
     .sidebar{
+        min-height: 100vh;
         width:255px;
-        height: 100vh;
+    }
+    .main-div{
+        width: calc(100% - 255px);
     }
 }
 
@@ -155,7 +158,6 @@ hr{
 
 .main-div{
     padding: 30px 30px;
-    width: calc(100%-255px);
 }
 
 .box > div {
